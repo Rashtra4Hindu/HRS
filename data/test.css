@@ -31,17 +31,18 @@ p{
 }
 .ens{
     font-family: sans-serif;
-    color: #0075ff;
+    color: #0055ff;
     font-weight: 700;
-    margin: 0 7px;
+    margin: 0 8px;
 }
 .hns{
     font-family: hindi;
     color: black;
     font-weight: 700;
-    margin: 0 7px;
+    margin: 0 8px;
 }
 .lt{
+    appearance: none;
     width: 50px;
     cursor: pointer;
 }
@@ -51,8 +52,10 @@ p{
     width: 50px;
     height: 25px;
     border-radius: 25px;
+    margin: -17px auto;
     background: #333;
     transition: 0.2s ease;
+
 }
 .lt:checked::before{
     position:absolute;
@@ -60,7 +63,7 @@ p{
     width: 50px;
     height: 25px;
     border-radius: 25px;
-    background: #0075ff;
+    background: #0065ff;
 }
 .lt::after{
     position: absolute;
@@ -68,14 +71,16 @@ p{
     width: 25px;
     height: 25px;
     border: 3px solid #333;
+    margin: -17px 0;
     box-sizing: border-box;
     border-radius: 25px;
-    transition: 0.2s ease;
     background: rgb(255, 255, 255);
+    transition: 0.2s ease;
 }
 .lt:checked::after{
-    margin-left: 25px;
-    border: 3px solid #0075ff;
+    position: absolute;
+    margin: -17px 25px;
+    border: 3px solid #0065ff;
 }
 .en{
     display: none;
@@ -203,9 +208,9 @@ body {
 }
 
 footer{
-    margin: 5px 5%;
+    margin: 0px 5% 10px 5%;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(0, 0, 0);
     text-align: right;
 }
@@ -337,9 +342,9 @@ footer{
         font-size: 22px;
     }
     footer{
-        margin: 5px 5%;
+        margin: 0px 5% 10px 5%;
         font-family: sans-serif;
-        font-size: 11px;
+        font-size: 12px;
         color: rgb(0, 0, 0);
         text-align: center;
     }
