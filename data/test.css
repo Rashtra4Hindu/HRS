@@ -199,15 +199,14 @@ body {
     text-shadow: 10px 5px 5px rgba(0,0,0, 0.9);
 }
 
-footer ul{
+footer{
     margin: 5px 5%;
     font-family: sans-serif;
-    font-size: 13px;
-    display: flex;
-    list-style: none;
+    font-size: 14px;
     color: rgb(0, 0, 0);
-    justify-content: space-between;
+    text-align: right;
 }
+
 
 
 
@@ -334,13 +333,11 @@ footer ul{
     .link {
         font-size: 22px;
     }
-    footer ul{
+    footer{
         margin: 5px 5%;
-        font-family: calibri, sans-serif;
+        font-family: sans-serif;
         font-size: 10px;
-        display: flex;
-        list-style: none;
         color: rgb(0, 0, 0);
-        justify-content: space-between;
+        text-align: center;
     }
 }
