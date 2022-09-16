@@ -422,7 +422,7 @@ footer{
     }
     p{
         font-family: calibri, sans-serif;
-        text-indent: 31px;
+        text-indent: 70px;
         line-height: 1.33;
         color: rgb(255, 255, 255);
         text-align: justify;
@@ -434,7 +434,7 @@ footer{
         text-indent: 70px;
         line-height: 1.4;
         color: rgb(255, 255, 255);
-        margin: 14px;
+        margin: 14px 3.5%;
         text-align: justify;
     }
     .hd{
