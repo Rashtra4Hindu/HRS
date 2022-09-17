@@ -397,7 +397,7 @@ footer{
     }
     .lh{
         display: block;
-        margin-bottom: 24px;
+        margin: 0 5% 24px 5%;
     }
     .lh button{
         padding: 0;
