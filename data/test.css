@@ -408,7 +408,7 @@ footer{
     }
     .link {
         display: block;
-        font-size: 18.5px;
+        font-size: 19px;
         font-weight: 600;
         padding: 10px 15px;
         color: rgb(255, 255, 255);
@@ -500,9 +500,6 @@ footer{
     }
     .smh{
         font-size: 20px;
-    }
-    .link {
-        font-size: 22px;
     }
     footer{
         position: sticky;
