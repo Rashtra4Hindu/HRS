@@ -368,6 +368,27 @@ footer{
 
 
 
+
+.err p{
+    font-family: calibri, sans-serif;
+    font-size: 40px;
+    font-style: bold;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (orientation: portrait) {
     .lo ul {
         display: flex;
