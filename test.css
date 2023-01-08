@@ -153,6 +153,13 @@ body {
     box-shadow: 0px 0px 20px 0px rgba(0,0,0, 0.8);
 }
 
+.hash {
+    color: #a4adff;
+}
+.hn .smh{
+    font-family: hindi, sans-serif;
+}
+
 .lo ul {
     display: flex;
     margin: 0px 26%;
